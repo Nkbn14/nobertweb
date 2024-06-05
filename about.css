@@ -1,0 +1,51 @@
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+ul{
+    float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul li a:hover{
+    color:rgb(71, 86, 214);
+  }
+  .menu{
+    width:600px;
+    float: left;
+    height: 65px;
+    
+    }
+  .tittle{
+    text-decoration: none;
+    font-style: italic;
+    font-family: Arial;
+    color: darkorange;
+  }
+  .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(22, 23, 24);
+    position: relative;
+    background-color: rgb(179, 151, 124);
+    
+  }
